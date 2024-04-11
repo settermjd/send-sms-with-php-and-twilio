@@ -22,11 +22,11 @@ To use the project only requires three things:
 
 1. Clone the code
 1. Install the required dependencies
-1. Create a .env file from _.env.example_
+1. Create a _.env_ file from _.env.example_
 1. Set your Twilio credentials and mobile phone number in _.env_
 1. Run the code
 
-Do steps 1 & 2 with the following commands:
+Do steps 1 - 3 with the following commands:
 
 ```php
 # Clone the source code locally into a directory named send-sms-with-php-and-twilio
@@ -34,6 +34,8 @@ git clone git@github.com:settermjd/send-sms-with-php-and-twilio.git
 
 # Install PHP's dependencies
 composer install
+
+cp -v .env.example .env
 ```
 
 You can retrieve your Twilio credentials and phone number from the [Twilio Console](https://console.twilio.com/).
@@ -45,8 +47,8 @@ After running the code, you should receive an SMS to your mobile/cell phone.
 This repository is Open Source under the [Apache License 2.0](LICENSE), and is the [copyright of its contributors](NOTICE). 
 If you would like to contribute to the software, you must:
 
-1. Read the Developer Certificate of Origin Version 1.1 (https://developercertificate.org/)
-2. Sign all commits to the project.
+1. Read the [Developer Certificate of Origin Version 1.1]()
+2. Sign all commits to the project
 
 This ensures that users, distributors, and other contributors can rely on all the software related to Daytona being contributed under the terms of the [License](LICENSE). No contributions will be accepted without following this process.
 
